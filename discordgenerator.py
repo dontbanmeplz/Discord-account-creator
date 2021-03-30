@@ -44,7 +44,7 @@ def password_gen(length=8, chars= string.ascii_letters + string.digits + string.
 
 def gather_proxy():
         proxies = []
-        with open('config/proxies.txt', 'r', encoding='UTF-8') as file:
+        with open('proxies.txt', 'r', encoding='UTF-8') as file:
             lines = file.readlines()
             for line in lines:
                 proxies.append(line.replace('\n', ''))
