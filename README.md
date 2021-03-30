@@ -22,12 +22,7 @@ the installation.
 ### Run via Python
 1. install the required modules
 ```
-pip install selenium
-pip install undetected-chromedriver
-pip install colorama
-pip install bs4
-pip install lxml
-pip install requests
+pip install -r requirements.txt
 ```
 
 2. To run the script..
